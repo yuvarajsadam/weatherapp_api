@@ -1,6 +1,6 @@
  
  
-/*let h2=document.getElementById("dis");
+let h2=document.getElementById("dis");
 async function f(){
 
 
@@ -16,18 +16,5 @@ async function f(){
        else{
           console.log("h2 not found");
        }
-     }*/
-    const b=document.getElementById("b");
-    const p=document.getElementById("change");
-    function textchange(){
-     if(b.textContent===hello){
-          p.textContent="hi";
-          b.textContent="unclicked";
-          return;
      }
-     else{
- p.textContent="hello";
-     b.textContent="clicked";
-     }
-     
-    }
+    
